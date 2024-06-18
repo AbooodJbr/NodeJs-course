@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <form>
+        <div class="weather h1">Weather</div>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a href="/" class="navbar-brand">Home</a>
+                <a href="/help" class="navbar-brand">help</a>
+                <a href="/about" class="navbar-brand">about</a>
+                <input type="text" placeholder="Location" class="form-control me-2">
+                <button class="btn btn-outline-success">submit</button>
+            </div>
+        </nav>
+    </form>
+    <p id="m1"></p>
+    <p id="m2"></p>
+    <p id="m3"></p>
+    {{>footer}}
+
+</body>
+</html>
